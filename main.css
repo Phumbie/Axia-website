@@ -496,3 +496,7 @@ cursor pointer:focus {
     opacity: 1;
   }
 }
+
+.is-active > p {
+  color: black;
+}
