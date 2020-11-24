@@ -446,7 +446,7 @@ cursor pointer:focus {
 .tabs__header {
   display: flex;
   justify-content: space-between;
-  width: 45%;
+  width: 30%;
 }
 
 .tabs__heading {
@@ -482,6 +482,7 @@ cursor pointer:focus {
 .tab-image {
   /* opacity: 0; */
   animation: fadeIn 2s linear;
+  transform: scale(1.4, 1.4);
   /* animation-delay: 0.5s; */
 }
 
