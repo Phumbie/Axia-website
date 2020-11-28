@@ -545,3 +545,12 @@ cursor pointer:focus {
   justify-content: center;
   height: 100%;
 }
+
+.news-date {
+  /* font-size: 0.8rem;
+  margin: auto 0; */
+}
+
+.news {
+  background-color: var(--baby-blue);
+}
