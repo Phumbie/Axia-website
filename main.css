@@ -100,20 +100,23 @@ p {
 .safe {
   background-color: black;
   color: white;
-  padding: 2rem 0;
 }
 
 .safe p {
   color: white;
 }
 .safe-desc {
-  display: flex;
+  /* display: flex; */
   align-items: center;
   color: white;
+  padding: 7rem 0 5rem !important;
 }
 .hero-section_image {
   height: 30rem;
   text-align: center;
+}
+.safe-img{
+  max-height: 32rem;
 }
 
 @media (max-width: 540px) {
@@ -192,6 +195,7 @@ p {
 .intro-image {
   /* height: 10rem; */
   max-height: 100%;
+  position: absolute;
 }
 
 .intro-img {
@@ -462,7 +466,7 @@ cursor pointer:focus {
 .tabs__header {
   display: flex;
   justify-content: space-between;
-  width: 30%;
+  width: 70%;
 }
 
 .tabs__heading {
@@ -500,7 +504,20 @@ cursor pointer:focus {
   animation: fadeIn 2s linear;
   /* transform: scale(1, 1); */
   /* animation-delay: 0.5s; */
-  max-height: 15rem;
+  /* max-height: 15rem;
+  font-size: 70px; */
+  position: absolute;
+  max-height: 23rem;
+}
+.list-img{
+  width: 40% !important;
+  height: 40%;
+}
+.inner-img{
+  text-align: center;
+}
+.axia-pro{
+  font-size: 28px !important;
 }
 
 @keyframes fadeIn {
@@ -567,4 +584,70 @@ cursor pointer:focus {
 
 .news {
   background-color: var(--baby-blue);
+}
+
+
+/* for mobile */
+@media only screen and (min-width: 320px) and (max-width: 720px) {
+  .tab-image{
+position: static;
+  }
+  .intro-image{
+position: static;
+top: 0;
+  }
+  .safe-desc{
+padding-right: 15px !important;
+padding-left: 15px !important;
+padding-top: 5px !important;
+padding-bottom: 5px !important;
+  }
+.manage{
+  margin-top: 2rem;
+}
+.tab-1{
+margin-top: 1rem;
+}
+.tab-2{
+  margin-top: 1rem;
+}
+.portfolio-image{
+  text-align: center;
+}
+input#email{
+  margin: 0;
+}
+}
+
+
+/* ipad */
+@media only screen and (min-width: 720px) and (max-width: 1024px){
+  .tab-image{
+    position: static;
+      }
+      .intro-image{
+    position: static;
+    top: 0;
+      }
+      .safe-desc{
+    padding-right: 15px !important;
+    padding-left: 15px !important;
+    padding-top: 5px !important;
+    padding-bottom: 5px !important;
+      }
+    .manage{
+      margin-top: 2rem;
+    }
+    .tab-1{
+    margin-top: 1rem;
+    }
+    .tab-2{
+      margin-top: 1rem;
+    }
+    .portfolio-image{
+      text-align: center;
+    }
+    input#email{
+      margin: 0;
+    }
 }

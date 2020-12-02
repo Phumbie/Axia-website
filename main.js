@@ -28,10 +28,12 @@ document.querySelectorAll(".tabs").forEach((tab) => {
       // Disabling each tab
       tabHeading.forEach((item) => {
         item.classList.remove("is-active");
+        document.querySelector(".first-tab-image").style.display = "block"
       });
 
       // Enabling a tab
       element.classList.add("is-active");
+      document.querySelector(".first-tab-image").style.display = "none"
 
       // Getting value from the data attribute
       tabName = element.getAttribute("data-tab-index");
