@@ -351,7 +351,7 @@ p {
 }
 .Signup__form {
   display: flex;
-  justify-content: flex-end;
+  justify-content: flex-start;
 }
 @media (max-width: 540px) {
   .Signup__form {
