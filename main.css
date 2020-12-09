@@ -102,6 +102,10 @@ p {
   color: white;
   padding: 2rem 0;
 }
+
+.safe p {
+  color: white;
+}
 .safe-desc {
   display: flex;
   align-items: center;
@@ -494,8 +498,9 @@ cursor pointer:focus {
 .tab-image {
   /* opacity: 0; */
   animation: fadeIn 2s linear;
-  transform: scale(1, 1);
+  /* transform: scale(1, 1); */
   /* animation-delay: 0.5s; */
+  max-height: 20rem;
 }
 
 @keyframes fadeIn {
