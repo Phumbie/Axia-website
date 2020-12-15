@@ -500,7 +500,7 @@ cursor pointer:focus {
   animation: fadeIn 2s linear;
   /* transform: scale(1, 1); */
   /* animation-delay: 0.5s; */
-  max-height: 20rem;
+  max-height: 15rem;
 }
 
 @keyframes fadeIn {
