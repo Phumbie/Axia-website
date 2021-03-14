@@ -10,11 +10,18 @@
       integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
       crossorigin="anonymous"
     />
+    <script defer src="https://use.fontawesome.com/releases/v5.0.0/js/solid.js"
+    integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ"
+    crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js"
+      integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY"
+      crossorigin="anonymous"></script>
     <link rel="stylesheet" href="main.css" />
-  </head>
-  <body>
+    <script src="https://code.iconify.design/1/1.0.4/iconify.min.js"></script>
+    </head>
+  <body class="light-theme">
     <nav
-      class="navbar container-fluid nav-container navbar-expand-lg navbar-light bg-light"
+      class="navbar container-fluid nav-container navbar-expand-lg head-nav"
     >
       <a class="navbar-brand" href="#">
         <img class="img-fluid" src="/assets/logo1.png" alt="" />
@@ -113,6 +120,23 @@
             </div>
           </li>
         </ul>
+        <ul class="ml-md-auto pl-0">
+          <li class="nav-item nav-link pl-0">
+            <label class="switch">
+              <input class='toggle-checkbox' type='checkbox'></input>
+              <div class='toggle-slot'>
+                <div class='sun-icon-wrapper'>
+                  <div class="iconify sun-icon" data-icon="feather-sun" data-inline="false"></div>
+                </div>
+                <div class='toggle-button'></div>
+                <div class='moon-icon-wrapper'>
+                  <div class="iconify moon-icon" data-icon="feather-moon" data-inline="false"></div>
+                </div>
+              </div>
+            </label>
+            
+          </li>
+        </ul>
         <!-- <div class="app-button">
           <p>dAPP</p>
         </div> -->
@@ -132,13 +156,13 @@
                 to take control of your finances and make your cryptocurrencies
                 work smarter not harder.
               </p>
-              <button class="app-download">Launch dApp</button>
+              <button class="app-download">Launch App</button>
             </div>
           </div>
           <div class="col-md-6 hero-section_image">
             <img
               class="image-fluid"
-              src="/assets/green-phone.png"
+              src="assets/green-phone.png"
               alt="hero image"
             />
           </div>
@@ -235,7 +259,7 @@
       <div class="row">
           <div class="col-md-7 col-sm-6 safe-desc">
             <div class="">
-              <h3>Safe</h3>
+              <h3 class="safe">Safe</h3>
               <p class="mt-3">
                 Rest easy knowing your investment is safe! Each token is put
                 through a strigent vetting process before they are added to our
@@ -579,6 +603,7 @@
         </div>
       </div>
     </section>
+    
     <section class="news py-5">
       <div class="container">
         <div>
@@ -601,6 +626,34 @@
             <p class="ml-2">
               Axia share pricerise shows SMEs the listing waySees 42% growth
             </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="safe py-5">
+      <div class="container connect">
+        <div class="row">
+          <div class="col-md-9 col-12">
+            <div class="">
+              <h3 class="safe">Connect with Us</h3>
+            </div>
+          </div>
+          <div class="col-md-3 col-12">
+            <img
+              style="width: 40px"
+              src="./assets/telegram3.svg"
+              alt=""
+            />
+            <img
+            style="width: 40px"
+            src="./assets/twitter6.png"
+            alt=""
+            />
+            <img
+              style="width: 40px"
+              src="./assets/discord7.jpg"
+              alt=""
+            />
           </div>
         </div>
       </div>
@@ -783,7 +836,7 @@
         </section>
       </div>
     </section> -->
-    <hr />
+    <hr class="footer-hr my-0 pt-4"/>
     <footer class="footer-section">
       <div class="container">
         <div class="row">
@@ -802,31 +855,28 @@
                 <h6>About Us</h6>
                 <!-- <h6>Careers</h6> -->
                 <h6>Company News</h6>
-                <div class="row w-60">
-                  <div class="col-8">
-                    <div class="row">
-                      <div class="col-4">
-                        <img
-                          style="width: 20px"
-                          src="./assets/instagram.svg"
-                          alt=""
-                        />
-                      </div>
-                      <div class="col-4">
-                        <img
-                          style="width: 20px"
-                          src="./assets/twitter.svg"
-                          alt=""
-                        />
-                      </div>
-                      <div class="col-4">
-                        <img
-                          style="width: 20px"
-                          src="./assets/discord.svg"
-                          alt=""
-                        />
-                      </div>
-                    </div>
+                <i class="fa fa-phone"></i>
+                <div class="row">
+                  <div class="col-2">
+                    <img
+                      style="width: 20px"
+                      src="./assets/instagram.svg"
+                      alt=""
+                    />
+                  </div>
+                  <div class="col-2">
+                    <img
+                      style="width: 20px"
+                      src="./assets/twitter.svg"
+                      alt=""
+                    />
+                  </div>
+                  <div class="col-2">
+                    <img
+                      style="width: 20px"
+                      src="./assets/discord.svg"
+                      alt=""
+                    />
                   </div>
                 </div>
 

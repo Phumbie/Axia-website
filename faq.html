@@ -10,11 +10,18 @@
       integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
       crossorigin="anonymous"
     />
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js"
+    integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ"
+    crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js"
+      integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY"
+      crossorigin="anonymous"></script>
     <link rel="stylesheet" href="main.css" />
+    <script src="https://code.iconify.design/1/1.0.4/iconify.min.js"></script>
   </head>
-  <body>
+  <body class="light-theme">
     <nav
-      class="navbar container-fluid nav-container navbar-expand-lg navbar-light bg-light"
+      class="navbar container-fluid nav-container navbar-expand-lg head-nav"
     >
       <a class="navbar-brand" href="#">
         <img class="img-fluid" src="/assets/logo1.png" alt="" />
@@ -113,12 +120,29 @@
             </div>
           </li>
         </ul>
+        <ul class="ml-md-auto pl-0">
+          <li class="nav-item nav-link pl-0">
+            <label class="switch">
+              <input class='toggle-checkbox' type='checkbox'></input>
+              <div class='toggle-slot'>
+                <div class='sun-icon-wrapper'>
+                  <div class="iconify sun-icon" data-icon="feather-sun" data-inline="false"></div>
+                </div>
+                <div class='toggle-button'></div>
+                <div class='moon-icon-wrapper'>
+                  <div class="iconify moon-icon" data-icon="feather-moon" data-inline="false"></div>
+                </div>
+              </div>
+            </label>
+            
+          </li>
+        </ul>
         <!-- <div class="app-button">
         <p>dAPP</p>
       </div> -->
       </div>
     </nav>
-    <section>
+    <section id="faq">
       <div class="container">
         <section class="faq-section">
           <img
@@ -296,7 +320,7 @@
         </section>
       </div>
     </section>
-    <hr />
+    <hr class="footer-hr my-0 pt-4"/>
     <footer class="footer-section">
       <div class="container">
         <div class="row">
